@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    font-style: normal;
+    
+}
+
+#MenuSuperior{
+background-image: url(imagens/fundotitulo.svg);
+padding: 75PX;
+}
+
+#TituloMenu{
+    
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 100px;
+    font-size: 60px;
+    color: #FFFFFF;
+    font-size: 40px;
+    
+}
+
+#TextoMenu{
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+
+}
+
+.icone{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    margin-right: 25px;
+    padding: 15px;
+
+}
+
+#InforMenu{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#sobrenos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#ImgApartamento{
+
+width: 510px;
+height: 500px;
+margin-right:10;
+margin-left: 25px;
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+#ImgApartamento2{
+width: 400px;
+height: 500px;
+margin-top: 50px;
+margin-right: 75px;
+margin-bottom: 50px;
+border-radius: 40px;
+
+}
+
+
+#ImgApartamento2{
+    display: none;
+}
+
+#TituloSobreNos{
+
+margin-top: 200px;
+margin-left: 50px;
+margin-right: 15px;
+font-size: 30px;
+font: "inter";
+}
+
+#TextoSobreNos{
+
+margin-left: 50px; 
+margin-bottom: 55px;
+margin-right: 50px;
+font-size: 18px;
+color: black;
+font: "inter";
+
+
+}
+
+#formulario{
+
+background-image: url(imagens/fundotitulo.svg);
+padding: 40px;
+
+}
+
+#TituloFormulario{
+
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#formulario{
+    text-align: center;
+    
+}
+
+input{
+    background-color: #FFFFFF;
+    margin: 16px;
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 12px;
+    border-style: none;
+
+}
+
+button{
+    background-color:#C07212;
+    border-radius: 10px;
+    color:#FFFFFF;
+    width: 150px;
+    height: 40px;
+    margin: 25px;
+    border-style: none;
+    cursor:pointer;
+
+}
+
+button:hover{
+   background-color: #f58a09;
+   color: rgb(231, 187, 103);
+   transform: translateY(-2px);
+   box-shadow: 0px 10px 20px 
+}
+    
+#chevron-right{
+    cursor: pointer;
+    box-shadow: 0px 5px 6px;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-right: 50px;
+}
+
+#setaesquerda{
+    display: none;
+}
+
+#chevron-left{
+    margin-left:55px;
+    cursor: pointer;
+    box-shadow: 0px 5px 6px;
+    border-radius: 10px;
+    margin-top: 300px;
+}
+
+.seta:hover{
+    transform: translateY(-2px);
+  
+}
+
+
+
+    
+
+
+
+
